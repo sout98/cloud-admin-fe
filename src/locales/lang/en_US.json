@@ -652,6 +652,7 @@
       },
       "sendVerification": "send",
       "register": {
+        "accountPlaceholder": "Please enter your account",
         "phonePlaceholder": "Please enter your phone number",
         "emailPlaceholder": "Please enter your email",
         "passwordPlaceholder": "Please enter your password",
@@ -665,6 +666,7 @@
         "useEmailRegister": "Register with email",
         "usePhoneRegister": "Register with phone",
         "validation": {
+          "account": "Account is required",
           "phone": "Phone number is required",
           "email": "Email is required",
           "emailFormat": "Please enter a valid email",
@@ -673,7 +675,8 @@
           "agreeTerms": "You must agree to the service terms and privacy statement"
         },
         "messages": {
-          "registerSuccess": "Registration successful"
+          "registerSuccess": "Registration successful",
+          "registerFail": "Registration failed, please try again"
         }
       }
     },

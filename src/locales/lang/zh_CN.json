@@ -654,6 +654,7 @@
       },
       "sendVerification": "发送验证码",
       "register": {
+        "accountPlaceholder": "请输入您的账号",
         "phonePlaceholder": "请输入您的手机号",
         "emailPlaceholder": "请输入您的邮箱",
         "passwordPlaceholder": "请输入登录密码",
@@ -667,6 +668,7 @@
         "useEmailRegister": "使用邮箱注册",
         "usePhoneRegister": "使用手机号注册",
         "validation": {
+          "account": "账号必填",
           "phone": "手机号必填",
           "email": "邮箱必填",
           "emailFormat": "请输入正确的邮箱",
@@ -675,7 +677,8 @@
           "agreeTerms": "请同意TDesign服务协议和TDesign 隐私声明"
         },
         "messages": {
-          "registerSuccess": "注册成功"
+          "registerSuccess": "注册成功",
+          "registerFail": "注册失败，请重试"
         }
       }
     },

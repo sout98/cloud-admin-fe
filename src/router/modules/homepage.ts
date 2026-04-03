@@ -25,12 +25,12 @@ export default [
         component: () => import('@/pages/dashboard/base/index.vue'),
         meta: {
           title: {
-            zh_CN: '概览仪表盘',
+            zh_CN: '首页看板',
             en_US: 'Overview',
           },
         },
       },
-      {
+      /* {
         path: 'dashboard',
         name: 'Dashboard',
         meta: {
@@ -52,7 +52,7 @@ export default [
             },
           },
         ],
-      },
+      }, */
     ],
   },
 ] satisfies RouteRecordRaw[];
